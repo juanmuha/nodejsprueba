@@ -10,7 +10,7 @@ function getArtista(require, request)
         id:require.params["id"],
         nombre:"artista 1",
         album:"bocanada",
-        cancion:"amarillo"
+        cancion:"amarillo"        
     };
     request.json(artista);
 }
